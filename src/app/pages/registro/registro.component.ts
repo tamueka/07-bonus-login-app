@@ -25,8 +25,8 @@ export class RegistroComponent implements OnInit {
 
   onSubmit(form: NgForm){
 
-    if(form.invalid){ return false };
-    
+    if ( form.invalid ){ return; };
+
     console.log('Usuario Enviado');
     console.log(this.usuario);
     console.log(form)
