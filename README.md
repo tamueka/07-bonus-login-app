@@ -5,4 +5,7 @@ Cascaron de un login que usaremos en la sección 10 de mi curso de Angular de ce
 https://www.udemy.com/angular-2-fernando-herrera/?couponCode=ANGULAR-10
 
 
-![](https://github.com/Klerith/angular-login-demoapp/blob/master/src/assets/images/demo.png?raw=true)# 07-bonus-login-app
+Ver documentacion firebase:
+https://firebase.google.com/docs/reference/rest/auth#section-create-email-password
+
+https://firebase.google.com/docs/reference/rest/auth#section-sign-in-email-password
