@@ -31,6 +31,14 @@ export class AuthService {
 
     nuevoUsuario( usuario: UsuarioModel ){
 
+      const authData= {
+        ...usuario,
+        returnSecureToken: true
+      };
+
+      return this.http.post(
+        "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyD0yqAGw7BEA_1Mk9wy8S8b9x_zJgpfAMg",
+        authData)
     }
 
 }
